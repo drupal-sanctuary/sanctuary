@@ -5,7 +5,7 @@
   "main": "./sanctuary-toolbar.ts",
   "module": "./sanctuary-toolbar.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "files": [
     "app.ts",
@@ -18,5 +18,8 @@
     "astro": "^4.11.0",
     "htm": "^3.1.1",
     "preact": "^10.23.1"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
   }
 }
